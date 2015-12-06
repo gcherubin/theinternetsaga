@@ -38,17 +38,16 @@ $(document).ready(function(){
 	function randomIntFromInterval(min,max) {
 	    return Math.floor(Math.random()*(max-min+1)+min);
 	}
-	
+
 	var classes = ['right', 'top', '', ''];
 	
 	$( ".saga_saver a" ).each(function() {		
-	    $(this).addClass(classes[Math.floor(Math.random()*classes.length)]);
 	    $(this).addClass(classes[Math.floor(Math.random()*classes.length)]);
 
 		var elWidth= $('.container').width() - $(this).width();
 		var elHeight = $('.container').height() - $(this).height();
 		var nameLink = $(this).attr("id");
-		var idLink = $(this).attr("id").substring(3, 5);
+		var idLink = nameLink.substring(3, 5);
 		if ($(this).hasClass("right")){
 			var css = $('<style>@keyframes moveX'+idLink+'{0% {right:0px;} 100% {right:'+elWidth+'px;}}</style>').appendTo('head');
 		}
