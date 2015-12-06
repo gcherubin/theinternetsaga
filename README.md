@@ -1,16 +1,14 @@
 # theinternetsaga
 
-## Dependancies
-- Middleman 3.4.0
-- Sass 3.4.19
-- Bourbon 4.2.6
-- Bitters 1.1.0
+## Overview
+Welcome to The Internet Saga.
+To enter into this story you don't have to be in Venice nor do you have to cross the threshold of Palazzo Foscari COntarini.
+Neither do you nned to go from the railway station to Piazza San MArco and to the Spazio Ridotto. You can simply go on line from wherever you are and look for that which interests you the most. We are here and elsewhere, continually. You don't have to be here at all costs, it's not important for you to be right here, but that you are now, wherever you are.
 
 ## Getting Started
-1. `git clone https://github.com/gcherubin/gc_portfolio.git`
-2. `cd gc_portfolio`
+1. `git clone https://github.com/gcherubin/theinternetsaga.git`
+2. `cd theinternetsaga`
 3. `rm -rf CHANGELOG.md`
-4. `bundle exec middleman server`
 
-## Sites using gcherubin portfolio
-- [gcherub.in](http://gcherub.in)
+## Site
+- [internetsaga.com](http://www.internetsaga.com/)
