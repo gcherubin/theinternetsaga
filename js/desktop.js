@@ -43,7 +43,7 @@ $(document).ready(function(){
 	
 	$( ".saga_saver a" ).each(function() {		
 	    $(this).addClass(classes[Math.floor(Math.random()*classes.length)]);
-
+	    $(this).addClass(classes[Math.floor(Math.random()*classes.length)]);
 		var elWidth= $('.container').width() - $(this).width();
 		var elHeight = $('.container').height() - $(this).height();
 		var nameLink = $(this).attr("id");
